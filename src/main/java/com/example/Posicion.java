@@ -1,4 +1,4 @@
-package main.java.com.example;
+package com.example;
 
 public enum Posicion {
     Portero, Defensa, Medio_Campista, Delantero, Aguatero;

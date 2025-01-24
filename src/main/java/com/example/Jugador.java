@@ -1,4 +1,5 @@
-package main.java.com.example;
+package com.example;
+
 
 class Jugador {
     public String Nommbre_camiseta;
