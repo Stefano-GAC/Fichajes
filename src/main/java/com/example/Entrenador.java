@@ -9,6 +9,7 @@ class Entrenador {
 
     /**
      * Constructor de Jugador
+     * 
      * @param nombreEntrenador
      */
     public Entrenador(String nombreEntrenador) {

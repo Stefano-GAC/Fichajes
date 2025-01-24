@@ -1,24 +1,50 @@
 package com.example;
 
+import java.util.Date;
 
 class Jugador {
     public String Nommbre_camiseta;
     public Date Fecha_nacimientio;
     public String Pais_origen;
-    public Posicion p;
+    public Posicion Posicion_jugador;
     public int dorsal;
-    public Traspaso t;
+    public Traspaso Traspaso_jugador;
 
-    // public Jugador(String nommbre_camiseta, Date fecha_nacimientio, String
-    // pais_origen, Enum , int dorsal,
-    // Enum traspaso) {
-    // Nommbre_camiseta = nommbre_camiseta;
-    // Fecha_nacimientio = fecha_nacimientio;
-    // Pais_origen = pais_origen;
-    // Posicion = posicion;
-    // this.dorsal = dorsal;
-    // Traspaso = traspaso;
-    // }
+    /**
+     * Creacion del constructor
+     * 
+     * @param nommbre_camiseta
+     * @param fecha_nacimientio
+     * @param pais_origen
+     * @param posicion_jugador
+     * @param dorsal
+     * @param traspaso_jugador
+     */
+    public Jugador(String nommbre_camiseta, Date fecha_nacimientio, String pais_origen, Posicion posicion_jugador,
+            int dorsal, Traspaso traspaso_jugador) {
+        Nommbre_camiseta = nommbre_camiseta;
+        Fecha_nacimientio = fecha_nacimientio;
+        Pais_origen = pais_origen;
+        Posicion_jugador = posicion_jugador;
+        this.dorsal = dorsal;
+        Traspaso_jugador = traspaso_jugador;
+    }
+
+    public Traspaso getTraspaso_jugador() {
+        return Traspaso_jugador;
+    }
+
+    public void setTraspaso_jugador(Traspaso traspaso_jugador) {
+        Traspaso_jugador = traspaso_jugador;
+    }
+
+    public Posicion getPosicion_jugador() {
+        return Posicion_jugador;
+    }
+
+    public void setPosicion_jugador(Posicion posicion_jugador) {
+        Posicion_jugador = posicion_jugador;
+    }
 
     public String getNommbre_camiseta() {
         return Nommbre_camiseta;
@@ -51,13 +77,5 @@ class Jugador {
     public void setDorsal(int dorsal) {
         this.dorsal = dorsal;
     }
-
-    public Enum getTraspaso() {
-        return Traspaso;
-    }
-
-    public void setTraspaso(Enum traspaso) {
-        Traspaso = traspaso;
-    };
 
 }
