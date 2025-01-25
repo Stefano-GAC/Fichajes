@@ -15,11 +15,16 @@ public class Main {
         presidentes.add(presidente3);
 
         /**Creacion de objeto de la clase jugador */
-        Posicion posicionPortero = new Posicion.Portero;
-        Posicion posicionDefensa = new Posicion.Defensa;
-        Posicion posicionMedio_Campista = new Posiciocion.Medio_Campista;
-        Posicion posicionDelantero = new Posicion.Delantero;
+        Posicion posicionPortero = Posicion.Portero;
+        Posicion posicionDefensa = Posicion.Defensa;
+        Posicion posicionMedioCampista = Posicion.Medio_Campista;
+        Posicion posicionDelantero = Posicion.Delantero;
+        Posicion posicionAguatero = Posicion.Aguatero;
 
-        
-
+        Traspaso traspasoSinSolicitar = Traspaso.SIN_SOLICITAR;
+        Traspaso traspasoSolicitado = Traspaso.SOLICITADO;
+        Traspaso traspasoAprobadoEntrenador = Traspaso.APROBADO_POR_ENTRENADOR;
+        Traspaso traspasoAprobadoPresidente = Traspaso.RECHAZADO_POR_PRESIDENTE;
+        Traspaso traspasoRechazadoEntrenador = Traspaso.RECHAZADO_POR_ENTRENADOR;
+        Traspaso traspasoRechazadoPresidente = Traspaso.RECHAZADO_POR_PRESIDENTE;
 }
