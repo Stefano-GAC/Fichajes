@@ -8,4 +8,11 @@ public class Main {
         Presidente presidente2 = new Presidente("123456789B", "Camila Gonzalez");
         Presidente presidente3 = new Presidente("123456789C", "Jose Rpdriguez");
     }
+    /**Creacion de la lista de presidentes */
+    ArrayList<Presidente> presidentes = new ArrayList<>();
+    presidentes.add(presidente1);
+    presidentes.add(presidente2);
+    presidentes.add(presidente3);
+
+
 }
