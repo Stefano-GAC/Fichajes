@@ -7,7 +7,7 @@ public class Main {
         Presidente presidente1= new Presidente("123456789A", "Carlos Martinez");
         Presidente presidente2 = new Presidente("123456789B", "Camila Gonzalez");
         Presidente presidente3 = new Presidente("123456789C", "Jose Rpdriguez");
-    }
+    
         /**Creacion de la lista de presidentes */
         ArrayList<Presidente> presidentes = new ArrayList<>();
         presidentes.add(presidente1);
@@ -33,7 +33,12 @@ public class Main {
         Jugador jugador2 = new Jugador("Gerard Piqué", new Date(1987, 2, 2), "España", posicionDefensa, 3, traspasoSolicitado);
         Jugador jugador3 = new Jugador("Thibaut Courtois", new Date(1992, 5, 11), "Bélgica", posicionPortero, 1, traspasoRechazadoEntrenador);
 
+        /**Creacion de la lista jugadores */
+        ArrayList<Jugador> jugadores = new ArrayList<>();
+        jugadores.add(jugador1);
+        jugadores.add(jugador2);
+        jugadores.add(jugador3);
 
-
+    }
 
     }
