@@ -3,8 +3,8 @@ package com.example;
 import java.util.Date;
 
 class Jugador {
-    public String Nommbre_camiseta;
-    public Date Fecha_nacimientio;
+    public String Nombre_camiseta;
+    public Date Fecha_nacimiento;
     public String Pais_origen;
     public Posicion Posicion_jugador;
     public int dorsal;
@@ -20,6 +20,8 @@ class Jugador {
      * @param dorsal
      * @param traspaso_jugador
      */
+
+    
     public Jugador(String nommbre_camiseta, Date fecha_nacimientio, String pais_origen, Posicion posicion_jugador,
             int dorsal, Traspaso traspaso_jugador) {
         Nommbre_camiseta = nommbre_camiseta;
