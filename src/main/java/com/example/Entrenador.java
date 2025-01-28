@@ -1,18 +1,13 @@
 package com.example;
 
-class Entrenador {
+public class Entrenador {
     public String nombreEntrenador;
+    public Formacion formacionPreferida;
 
-    public enum formacion {
-        Formacion532, Formacion451, Formacion442, Formacion433, Formacion343, Formacion424, Formacion4141, Formacion352
-    };
-
-    /**
-     * Constructor de Jugador
-     * @param nombreEntrenador
-     */
-    public Entrenador(String nombreEntrenador) {
-        this.nombreEntrenador = nombreEntrenador;
+    // Constructor
+    public Entrenador(String nombreEntrenador, Formacion formacionPreferida) {
+        nombreEntrenador = nombreEntrenador;
+        formacionPreferida = formacionPreferida;
     }
 
     public String getNombreEntrenador() {
@@ -21,5 +16,13 @@ class Entrenador {
 
     public void setNombreEntrenador(String nombreEntrenador) {
         this.nombreEntrenador = nombreEntrenador;
+    }
+
+    public Formacion getFormacionPreferida() {
+        return formacionPreferida;
+    }
+
+    public void setFormacionPreferida(Formacion formacionPreferida) {
+        this.formacionPreferida = formacionPreferida;
     }
 }
