@@ -55,6 +55,23 @@ public class Main {
         jugadores.add(jugador9);
         jugadores.add(jugador10);
 
+        /** Creacion de objetos de la clase Equipo  */
+        Equipo equipo1 = new Equipo("FC Barcelona", "FCB");
+        Equipo equipo2 = new Equipo("Atletico Madrid", "ATM");
+        Equipo equipo3 = new Equipo("Real Madrid", "RMD");
+        Equipo equipo4 = new Equipo("Liverpool", "LIV");
+        Equipo equipo5 = new Equipo("Inter de Miami", "IMA");
+        Equipo equipo6 = new Equipo("Peru FC", "PFC");
+
+        /**Creacion de la lista Equipo */
+        ArrayList<Equipo> equipos = new ArrayList<>();
+        equipos.add(equipo1);
+        equipos.add(equipo2);
+        equipos.add(equipo3);
+        equipos.add(equipo4);
+        equipos.add(equipo5);
+        equipos.add(equipo6);
+
     }
 
 }
