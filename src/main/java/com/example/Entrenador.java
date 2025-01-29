@@ -10,19 +10,19 @@ public class Entrenador {
         this.formacionPreferida = formacionPreferida;
     }
 
-    public String getnombreEntrenador() {
+    public String getNombreEntrenador() {
         return nombreEntrenador;
     }
 
-    public void setnombreEntrenador(String nombreEntrenador) {
+    public void setNombreEntrenador(String nombreEntrenador) {
         this.nombreEntrenador = nombreEntrenador;
     }
 
-    public Formacion getformacionPreferida() {
+    public Formacion getFormacionPreferida() {
         return formacionPreferida;
     }
 
-    public void setformacionPreferida(Formacion formacionPreferida) {
+    public void setFormacionPreferida(Formacion formacionPreferida) {
         this.formacionPreferida = formacionPreferida;
     }
 }
