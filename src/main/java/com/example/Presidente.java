@@ -1,27 +1,27 @@
 package com.example;
 
 public class Presidente {
-    public String Dni;
-    public String Nombre;
+    private String Dni;
+    private String Nombre;
 
-    public Presidente(String dni, String nombre) {
-        Dni = dni;
-        Nombre = nombre;
+    public Presidente(String Dni, String Nombre) {
+        this.Dni = Dni;
+        this.Nombre = Nombre;
     }
 
     public String getDni() {
         return Dni;
     }
 
-    public void setDni(String dni) {
-        Dni = dni;
+    public void setDni(String Dni) {
+        this.Dni = Dni;
     }
 
     public String getNombre() {
         return Nombre;
     }
 
-    public void setNombre(String nombre) {
-        Nombre = nombre;
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
     }
 }
