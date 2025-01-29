@@ -1,28 +1,28 @@
 package com.example;
 
 public class Entrenador {
-    public String nombreEntrenador;
-    public Formacion formacionPreferida;
+    private String nombreEntrenador;
+    private Formacion formacionPreferida;
 
     // Constructor
     public Entrenador(String nombreEntrenador, Formacion formacionPreferida) {
-        nombreEntrenador = nombreEntrenador;
-        formacionPreferida = formacionPreferida;
+        this.nombreEntrenador = nombreEntrenador;
+        this.formacionPreferida = formacionPreferida;
     }
 
-    public String getNombreEntrenador() {
+    public String getnombreEntrenador() {
         return nombreEntrenador;
     }
 
-    public void setNombreEntrenador(String nombreEntrenador) {
+    public void setnombreEntrenador(String nombreEntrenador) {
         this.nombreEntrenador = nombreEntrenador;
     }
 
-    public Formacion getFormacionPreferida() {
+    public Formacion getformacionPreferida() {
         return formacionPreferida;
     }
 
-    public void setFormacionPreferida(Formacion formacionPreferida) {
+    public void setformacionPreferida(Formacion formacionPreferida) {
         this.formacionPreferida = formacionPreferida;
     }
 }

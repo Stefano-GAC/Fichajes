@@ -8,7 +8,7 @@ public class Main {
         /** Creacion de objetos de la clase Presidente */
         Presidente presidente1= new Presidente("123456789A", "Carlos Martinez");
         Presidente presidente2 = new Presidente("123456789B", "Camila Gonzalez");
-        Presidente presidente3 = new Presidente("123456789C", "Jose Rpdriguez");
+        Presidente presidente3 = new Presidente("123456789C", "Jose Rodriguez");
     
         /**Creacion de la lista de presidentes */
         ArrayList<Presidente> presidentes = new ArrayList<>();
